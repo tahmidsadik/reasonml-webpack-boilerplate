@@ -1,0 +1,17 @@
+{
+  "name": "reason-web",
+  "version": "1.0.0",
+  "description": "Trying out reason-react",
+  "main": "index.html",
+  "author": "Tahmid Sadik",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "bs-loader": "^1.7.3",
+    "reason-react": "^0.2.4",
+    "webpack": "^3.6.0"
+  }
+}

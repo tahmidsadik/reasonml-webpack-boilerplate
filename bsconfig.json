@@ -1,0 +1,12 @@
+{
+  "name": "reason-web",
+  "sources": [
+    "src/reason"
+  ],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "reason": {
+    "react-jsx": 2
+  }
+}

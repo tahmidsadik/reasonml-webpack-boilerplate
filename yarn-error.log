@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/tahmid/.nvm/versions/node/v8.5.0/bin/node /Users/tahmid/.yarn/bin/yarn.js add react react-dom
+
+PATH: 
+  /Users/tahmid/.yarn/bin:/Users/tahmid/.nvm/versions/node/v8.5.0/bin:/Users/tahmid/.zplug/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/tahmid/.zplug/repos/unixorn/tumult.plugin.zsh/bin
+
+Yarn version: 
+  1.0.2
+
+Node version: 
+  8.5.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "reason-web",
+    "version": "1.0.0",
+    "description": "Trying out reason-react",
+    "main": "index.html",
+    "author": "Tahmid Sadik",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/tahmid/.yarn/lib/cli.js:118001:19)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:105:13)
+      at ClientRequest.emit (events.js:207:7)
+      at TLSSocket.emitTimeout (_http_client.js:722:34)
+      at Object.onceWrapper (events.js:314:30)
+      at emitNone (events.js:105:13)
+      at TLSSocket.emit (events.js:207:7)
+      at TLSSocket.Socket._onTimeout (net.js:398:8)
+      at ontimeout (timers.js:469:11)
