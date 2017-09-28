@@ -7,7 +7,8 @@
   "license": "MIT",
   "dependencies": {
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "webpack-dev-server": "^2.9.1"
   },
   "devDependencies": {
     "bs-loader": "^1.7.3",

@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    home: './src/reason/home.re'
+    home: './lib/js/src/reason/home.js'
   },
   output: {
     filename: '[name].js',
